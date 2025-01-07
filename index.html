@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>Hello, I'm Sunitha</h2>
+                <p>I'm a <span class="profession">Front-end Web Developer</span>. I love creating beautiful and functional websites.</p>
+                <a href="https://drive.google.com/file/d/1CsCPd-F9jE2yJVwDd-5NExElL7tT7SQM/view?usp=drive_link" class="btn">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="./WhatsApp_Image_2024-11-07_at_10.47.04_PM-removebg-preview.png" alt="Your Photo">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Rail tech Automation</h3>
+                    <p>Rail tech automation is transforming the rail
+                        industry by integrating advanced technologies
+                        like AI, IoT, and machine learning to improve
+                        safety, efficiency, and sustainability.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Attendance management system</h3>
+                    <p>Attendance management system to track the Attendance of any organization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sunitha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
